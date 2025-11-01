@@ -1,0 +1,163 @@
+{
+    "autocompletar": {
+    "cancelar": "Cancelar",
+    "fill": "Llenar las celdas con <i>%d<i><\/i><\/i>",
+    "fillHorizontal": "Llenar las celdas horizontalmente",
+    "fillVertical": "Llenar las celdas verticalmente"
+},
+"decimales": ",",
+"emptyTable": "No hay datos disponibles en la Tabla",
+"infoFiltered": "Filtrado de _MAX_ entradas totales",
+"infoMiles": ".",
+"lengthMenu": "Mostrar _MENU_ entradas",
+"loadingRecords": "Cargando...",
+"paginar": {
+    "primero": "Primera",
+    "último": "Última",
+    "siguiente": "Siguiente",
+    "anterior": "Anterior"
+},
+"procesamiento": "Procesando...",
+"buscar": "Buscada:",
+"constructor de búsqueda": {
+    "add": "Agregar condición",
+    "botón": {
+        "0": "Constructor de búsqueda",
+        "_": "Constructor de búsqueda (%d)"
+    },
+    "clearAll": "Quitar todo",
+    "condición": "Condición",
+    "condiciones": {
+        "fecha": {
+            "después": "Luego",
+            "antes": "Luego",
+            "entre": "Entre",
+            "vacío": "Vacio",
+            "igual": "Igual",
+            "notBetween": "Sin entrada"
+        },
+        "número": {
+            "entre": "Entre",
+            "vacío": "Vacío",
+            "igual": "Igual",
+            "gt": "Alcalde a",
+            "gte": "Mayor o igual a",
+            "lt": "Menor a",
+            "lte": "Menor o igual a ",
+            "no": "no",
+            "notBetween": "Sin entrada",
+            "notEmpty": "Sin vacío"
+        },
+        "cadena": {
+            "contiene": "Contiene",
+            "vacío": "Vacío",
+            "endsWith": "Termina en ",
+            "igual a": "Igual a ",
+            "no": "no",
+            "notEmpty": "Sin vacío",
+            "startsWith": "Comenza con "
+        }
+    },
+    "data": "Datos",
+    "deleteTitle": "Borrar regla de filtrado",
+    "leftTitle": "Criterio de alargado",
+    "lógicaY": "Y",
+    "logicOr": "O",
+    "rightTitle": "Criterio de endentado",
+    "título": {
+        "0": "Constructor de búsqueda",
+        "_": "Constructor de búsqueda (%d)"
+    },
+    "valor": "Valor"
+},
+"miles": ".",
+"zeroRecords": "No se encontraron registros que coincidieron con la búsqueda",
+"fecha y hora": {
+    "anterior": "Anterior",
+    "siguiente": "Siguiente",
+    "horas": "Hora",
+    "minutos": "Minuto",
+    "segundos": "Segundo",
+    "am PM": [
+        "SOY",
+        "PM"
+    ],
+    "meses": {
+        "0": "Enero",
+        "1": "Febrero",
+        "10": "Noviembre",
+        "11": "Diciembre",
+        "2": "Marzo",
+        "3": "abril",
+        "4": "mayo",
+        "5": "Junio",
+        "6": "Julio",
+        "7": "Agosto",
+        "8": "Septiembre",
+        "9": "Octubre"
+    },
+    "desconocido": "-",
+    "entre semana": [
+        "doméstico",
+        "lunes",
+        "Mar",
+        "Mie",
+        "jue",
+        "Rivalizar",
+        "sab"
+    ]
+},
+"editor": {
+    "cerrar": "Cerrar",
+    "crear": {
+        "botón": "Nuevo",
+        "title": "Crear nueva entrada",
+        "enviar": "Crear"
+    },
+    "editar": {
+        "botón": "Editar",
+        "title": "Editar entrada",
+        "enviar": "Actualizar"
+    },
+    "eliminar": {
+        "botón": "Borrar",
+        "title": "Borrar",
+        "enviar": "Borrar",
+        "confirmar": {
+            "_": "¿Está seguro que desea borrar %d filas?",
+            "1": "¿Está seguro que desea borrar 1 fila?"
+        }
+    },
+    "multi": {
+        "title": "Múltiples valores",
+        "info": "La selección contiene diferentes valores para esta entrada. Para editarla y establecer todos los elementos al mismo valor, clickear o tocar aquí, de otra manera conservarán sus valores individuales.",
+        "restore": "Deshacer cambios",
+        "noMulti": "Esta entrada se puede editar individualmente, pero no como parte de un grupo."
+    },
+    "error": {
+        "system": "Ocurrió un error de sistema (<a target=\"\\\" rel=\"nofollow\" href=\"\\\">Más información)."
+    }
+},
+"aria": {
+    "sortAscending": ": orden ascendente",
+    "sortDescending": ": orden descendente"
+},
+"info": "Mostrando _START_ a _END_ de _TOTAL_ entradas",
+"infoEmpty": "Mostrando 0 a 0 de 0 entradas",
+"botones": {
+    "copiar": "Copiar",
+    "copyTitle": "Copiar al portapapeles",
+    "csv": "CSV",
+    "excel": "Excel",
+    "pdf": "PDF",
+    "print": "Imprimir",
+    "createState": "Crear estado",
+    "removeAllStates": "Eliminar todos los estados",
+    "removeState": "Eliminar estado",
+    "renameState": "Renombrar estado",
+    "savedStates": "Estados guardados",
+    "stateRestore": "Estado %d",
+    "updateState": "Actualizar"
+},
+"search":"Buscar"
+}

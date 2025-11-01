@@ -1,0 +1,22 @@
+<?php
+require_once '../../../includes/config.php';
+if(!empty($_GET)){
+
+
+    $idprofesorarea=$_GET['id'];
+
+    $sql='SELECT * FROM profesor_area WHERE pa_id=?';
+    $query=$pdo->prepare($sql);
+    $query->execute(array($idprofesorarea));
+    $result=$query->fetch(PDO::FETCH_ASSOC);
+
+
+
+    if(empty($result)){
+        $respuesta=array('status'=>false,'msg'=>'datos no encontrados');
+    }else{
+        $respuesta=array('status'=>true,'data'=>$result);
+    }
+
+    echo json_encode($respuesta,JSON_UNESCAPED_UNICODE);
+}
