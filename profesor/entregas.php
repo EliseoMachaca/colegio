@@ -58,7 +58,7 @@ require_once "includes/modals/modal_evidencia.php";
                     <th>Observacion</th>
                     <th>Material</th>
                     <th>Estatus</th>
-                    <th>Cargar Nota</th>
+                    <th>Calificacion</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -78,11 +78,13 @@ require_once "includes/modals/modal_evidencia.php";
                         $queryn=$pdo->prepare($sqln);
                         $queryn->execute();
                         $datan=$queryn->rowCount();
+                        $nota=$queryn->fetch();
                         
 
                         if($datan>0){
                           $valor='<kbd class="bg-success">Calificado</kbd>';
-                          $cargar='';
+                          $cargar=$nota['valor_nota'];
+
                         }else{
                           require_once "includes/modals/modal-nota.php";
                           $valor='<kbd class="bg-danger">Sin Calificar</kbd>';
@@ -92,7 +94,13 @@ require_once "includes/modals/modal_evidencia.php";
                   ?>
                               <tr>
                                 <td>
+                                  <?php
+                                  if($datan<=0){
+                                    ?>
                                   <button class="btn btn-primary" title="Editar" onclick="editarEntrega(<?=$data2['ev_entregadas_id'];?>)" ><i class="bi bi-pencil"></i></button>
+                                  <?php
+                                  }
+                                  ?>
                                   <button class="btn btn-danger" title="Eliminar" onclick="eliminarEntrega(<?=$data2['ev_entregadas_id'];?>)" ><i class="bi bi-trash"></i></button>
                                 </td>
                                 <td><?=$data2['nombre_alumno']?></td>
